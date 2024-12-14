@@ -70,3 +70,36 @@ body{
     width: 60%;
     padding-right: 20px; 
 }
+.host-section{
+    background: linear-gradient(to bottom, rgba(214, 238, 255, 0) 0, #d6eeff 100%);
+}
+.host-section-title{
+    text-align: center;
+    padding: 100px;
+}
+.host-list{
+    display: flex;
+    padding: 100px 0;
+}
+.host-item{
+    margin: 0 10px;
+    padding: 40px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    text-align: justify;
+    color: #646262;
+    position: relative;
+}
+.host-item-title{
+    position: absolute;
+    width: 150px;
+    background-color: #288ed9;
+    color: white;
+    top: -20px;
+    text-align: center;
+    margin: auto;
+    right: 0;
+    left: 0;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
