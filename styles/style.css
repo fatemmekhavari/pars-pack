@@ -128,3 +128,16 @@ body{
 .feature:nth-child(even){
     flex-direction: row-reverse;
 }
+.footer-section{
+    text-align: center;
+    padding: 50px 0;
+}
+.socials{
+    text-align: center;
+    color: #646262;
+
+}
+.socials i{
+    font-size: 25px;
+    padding: 10px;
+}
